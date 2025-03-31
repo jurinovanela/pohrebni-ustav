@@ -1,0 +1,130 @@
+/* Reset a obecné styly */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Georgia", serif;
+    line-height: 1.6;
+    background-color: #f0f0f0;
+    color: #333;
+}
+
+header {
+    background-color: #3e3e3e;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+}
+
+header h1 {
+    font-size: 2em;
+    margin-bottom: 10px;
+}
+
+header nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+header nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+header nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+header nav ul li a:hover {
+    text-decoration: underline;
+}
+
+/* Zvýraznění prvního písmena v odstavcích */
+.highlight {
+    font-weight: bold;
+    color: #b40000; /* Tmavě červená barva pro zvýraznění */
+}
+
+/* Úvodní sekce */
+#intro {
+    padding: 40px 20px;
+    background-color: #fff;
+    text-align: center;
+}
+
+#intro p {
+    font-size: 1.2em;
+    margin-bottom: 20px;
+}
+
+/* Sekce služeb */
+#services {
+    padding: 40px 20px;
+    background-color: #e7e7e7;
+    text-align: center;
+}
+
+#services h2 {
+    font-size: 1.8em;
+    margin-bottom: 20px;
+}
+
+#services ul {
+    list-style: none;
+    font-size: 1.2em;
+}
+
+#services ul li {
+    margin-bottom: 10px;
+}
+
+/* Kontaktní sekce */
+#contact {
+    padding: 40px 20px;
+    background-color: #fff;
+    text-align: center;
+}
+
+#contact h2 {
+    font-size: 1.8em;
+    margin-bottom: 20px;
+}
+
+form {
+    margin-top: 20px;
+    max-width: 500px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+form input, form textarea, form button {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    font-size: 1em;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+form button {
+    background-color: #333;
+    color: #fff;
+    cursor: pointer;
+}
+
+form button:hover {
+    background-color: #555;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    padding: 20px 0;
+    background-color: #333;
+    color: #fff;
+}
